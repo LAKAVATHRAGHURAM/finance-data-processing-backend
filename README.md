@@ -59,13 +59,13 @@ finance-backend/
 
 ### 1. Clone repository
 ```bash
-git clone [https://github.com/YOUR_USERNAME/finance-data-processing-backend.git](https://github.com/LAKAVATHRAGHURAM/finance-data-processing-backend.git)
-```
+git clone https://github.com/LAKAVATHRAGHURAM/finance-data-processing-backend.git
 
 cd finance-backend
-
+```
 
 ### 2. Install dependencies
+
 ```bash
 npm install
 ```
