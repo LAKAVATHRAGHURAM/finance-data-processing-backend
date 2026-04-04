@@ -30,6 +30,7 @@ This project is a backend system for a finance dashboard where users interact wi
 
 ## 📂 Project Structure
 finance-backend/
+
 ├── controllers/
 
 ├── models/
