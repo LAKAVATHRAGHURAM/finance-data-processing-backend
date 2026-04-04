@@ -31,15 +31,25 @@ This project is a backend system for a finance dashboard where users interact wi
 ## 📂 Project Structure
 finance-backend/
 ├── controllers/
+
 ├── models/
+
 ├── routes/
+
 ├── middleware/
+
 ├── validators/
+
 ├── config/
+
 ├── output_screenshot/
+
 ├── app.js
+
 ├── package.json
+
 ├── README.md
+
 └── .gitignore
 
 
@@ -49,15 +59,16 @@ finance-backend/
 
 ### 1. Clone repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/finance-data-processing-backend.git
+git clone [https://github.com/YOUR_USERNAME/finance-data-processing-backend.git](https://github.com/LAKAVATHRAGHURAM/finance-data-processing-backend.git)
 ```
 
 cd finance-backend
 
 
 ### 2. Install dependencies
-
+```bash
 npm install
+```
 
 
 
