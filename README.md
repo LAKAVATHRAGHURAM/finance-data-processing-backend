@@ -70,6 +70,110 @@ cd finance-backend
 npm install
 ```
 
+### 3. Configure environment variables
+```bash
+Create a `.env` file:
+```
+
+```bash
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
+```
+
+### 4. Run the server
+
+```bash
+npm run dev
+```
+
+---
+
+## 🔐 Roles and Access Control
+
+### Viewer
+- Can view financial records
+- Can access dashboard summary
+- Cannot create/update/delete records
+
+### Analyst
+- Can view financial records
+- Can access dashboard insights
+- Cannot create/update/delete records
+
+### Admin
+- Full access
+- Can create, update, delete records
+- Can manage users
+- Can access dashboard
+
+---
+
+## 📡 API Endpoints
+
+### Authentication
+- POST `/api/auth/register`
+- POST `/api/auth/login`
+
+### Financial Records
+- POST `/api/records`
+- GET `/api/records`
+- PUT `/api/records/:id`
+- DELETE `/api/records/:id`
+
+### Dashboard
+- GET `/api/dashboard/summary`
+
+---
+
+## 📊 Dashboard Features
+
+- Total Income
+- Total Expenses
+- Net Balance
+- Category-wise totals
+- Monthly trends
+- Recent activity
+
+---
+
+## 📸 Screenshots
+
+Screenshots of API testing are included in the `output_screenshot` folder:
+
+- Register API
+- Login API
+- Create Record
+- Get Records
+- Dashboard Summary
+- Role-based access tests
+
+---
+
+## 📌 Assumptions
+
+- JWT is used for authentication
+- Only active users can access the system
+- MongoDB Atlas is used for database
+- Soft delete is used for records
+- APIs are tested locally using Postman
+
+---
+
+## ⚠️ Limitations
+
+- No refresh token mechanism
+- No rate limiting
+- No automated tests
+- Not production-ready (assessment purpose)
+
+---
+
+
+
+## 👨‍💻 Author
+
+Lakavath Raghuram
 
 
 
