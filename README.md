@@ -166,6 +166,9 @@ Screenshots of API testing are included in the `output_screenshot` folder:
 - Get Records
 - Dashboard Summary
 - Role-based access tests
+- render register
+- render summary
+- render register already exist
 
 ---
 
