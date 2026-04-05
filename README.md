@@ -28,6 +28,26 @@ This project is a backend system for a finance dashboard where users interact wi
 ---
 
 
+---
+
+## 🌐 Live Demo
+
+The API is deployed and accessible at:
+
+```bash
+https://finance-data-processing-backend-si6w.onrender.com
+```
+
+
+> Note:
+> - Some endpoints require POST requests and cannot be accessed directly via browser.
+> - Use Postman or any API client to test endpoints.
+> - The free Render instance may take a few seconds to wake up on first request.
+
+---
+
+
+
 ## 📂 Project Structure
 finance-backend/
 
