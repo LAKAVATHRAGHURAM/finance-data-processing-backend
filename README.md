@@ -28,8 +28,6 @@ This project is a backend system for a finance dashboard where users interact wi
 ---
 
 
----
-
 ## 🌐 Live Demo
 
 The API is deployed and accessible at:
